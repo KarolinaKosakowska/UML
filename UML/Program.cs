@@ -10,6 +10,7 @@ namespace UML
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }
