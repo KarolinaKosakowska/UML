@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML", "UML\UML.csproj", "{BB7B8F7F-F5CC-4DE0-9EE1-DA0B10F20CF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport", "Transport\Transport.csproj", "{ABAEE9E0-548C-4D6A-BE57-CC1A10E4BB93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BB7B8F7F-F5CC-4DE0-9EE1-DA0B10F20CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB7B8F7F-F5CC-4DE0-9EE1-DA0B10F20CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB7B8F7F-F5CC-4DE0-9EE1-DA0B10F20CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAEE9E0-548C-4D6A-BE57-CC1A10E4BB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAEE9E0-548C-4D6A-BE57-CC1A10E4BB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAEE9E0-548C-4D6A-BE57-CC1A10E4BB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAEE9E0-548C-4D6A-BE57-CC1A10E4BB93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

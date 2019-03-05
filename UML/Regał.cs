@@ -8,12 +8,14 @@ namespace UML
 {
     public class Regał
     {
+        protected int Id;
         public string nazwa;
         private int szerokosc;
         private int dlugosc;
         private int wysokosc;
         protected byte wytrzymalosc;
         public Magazyn magazyn;
+        public List<Półka> półki = new List<Półka>();
         public Regał()
         {
 
@@ -24,6 +26,12 @@ namespace UML
             var regał = new Regał(magazyn);
             magazyn.RegalList.Add(regał);
         }
+        public Regał(List<Półka> półki)
+        {
+            this.półki = półki;
+
+        }
+        
         public void Zaladuj()
         {
 

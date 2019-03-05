@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace UML
 {
-    class Wozek
+    class Wozek : IWozek    
     {
+        public string nazwa;
         private readonly Kierowca kierowca;
 
         public Wozek(Kierowca kierowca)
@@ -16,7 +17,17 @@ namespace UML
         }
         public Wozek()
         {
-                
+
         }
+
+        public void Jedz()
+        {
+
+        }
+        public void Hamuj()
+        {
+
+        }
+
     }
 }
